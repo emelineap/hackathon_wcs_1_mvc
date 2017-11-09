@@ -11,7 +11,7 @@
     <h1 class="text-center">Ajout d'une citation</h1>
 
     <!-- On spécifie vers quelle url la donnée du formulaire doit etre envoyé -->
-    <form action="index.php?section=add" method="post">
+    <form action="/index.php?section=add" method="post">
     <!-- End -->
     
         <div class="form-group">

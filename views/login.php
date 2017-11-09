@@ -9,7 +9,7 @@
 			<div class="row">
 				<div class="col-lg-10 col-lg-offset-1">
 
-					<form id="contact-form" method="POST" action="login.php" role="form">
+					<form id="contact-form" method="POST" action="../index.php?section=add" role="form">
 						<div class="row">
 							<div class="col-md-6">
 								<label for="username">Username <span class="blue">*</span></label>
