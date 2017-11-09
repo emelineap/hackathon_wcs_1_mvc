@@ -2,9 +2,9 @@
 
     <div class="container">
 
-        <div class="kaamelott-banner jumbotron kaamelott-underline">
-            <h1>C'EST PAS FAUX !</h1>
-            <p>Les meilleurs citations de la serie-TV Kaamelott</p>
+        <div class="stalkme-banner jumbotron stalkme-underline">
+            <h1></h1>
+            <p></p>
         </div>
 
         <div class="row">
@@ -15,11 +15,11 @@
                         <div class="img-box">
 
                             <!-- Ici devra s'afficher l'image -->
-                            <img class="kaamelott-underline" src="" alt="">
+                            <img class="stalkme-underline" src="" alt="">
                             <!-- End -->
 
                         </div>
-                        <div class="quote">
+                        <div class="birthday">
                             <blockquote>
 
                                 <!-- Ici devra s'afficher le contenu de la citation -->

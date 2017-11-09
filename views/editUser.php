@@ -1,49 +1,59 @@
 <?php include 'views/includes/header.php'; ?>
 
 <div class="container">
-    <h1 class="text-center">Edition de la citation</h1>
+    <h1 class="text-center">Edit profil</h1>
 
     <!-- On spécifie vers quelle url la donnée du formulaire doit etre envoyé, attention, afin d'éditer une citation, notre requete SQL a besoin de donnaitre son ID -->
     <form action="#" method="post">
     <!-- End -->
 
         <div class="form-group">
-            <label for="author">Auteur</label>
+            <label for="username">Username</label>
 
             <!-- On auto-complete les champs -->
-            <input name="author" type="text" class="form-control" id="author" value="">
+            <input name="username" type="text" class="form-control" id="username" value="">
             <!-- End -->
 
         </div>
         <div class="form-group">
-            <label for="chapter">Chapitre</label>
+            <label for="email">Email</label>
 
             <!-- On auto-complete les champs -->
-            <input name="chapter" type="text" class="form-control" id="chapter" value="">
-            <!-- End -->
-            
-        </div>
-        <div class="form-group">
-            <label for="content">Contenu</label>
-
-            <!-- On auto-complete les champs -->
-            <textarea name="content" rows="8" cols="80" class="form-control" id="content" placeholder="Contenu"></textarea>
+            <input name="email" type="mail" class="form-control" id="email" value="">
             <!-- End -->
             
         </div>
         <div class="form-group">
-            <label for="date">Date</label>
+            <label for="content">Phone</label>
+
+           <!-- On auto-complete les champs -->
+            <input name="phone" type="text" class="form-control" id="phone" value="">
+            <!-- End -->
+            
+            
+        </div>
+        <div class="form-group">
+            <label for="birthday">Birthday</label>
 
             <!-- On auto-complete les champs -->
-            <input name="date" type="date" class="form-control" id="date" value="">
+            <input name="birthday" type="birthday" class="form-control" id="birthday" value="">
+            <!-- End -->
+            
+        </div>
+
+        <div class="form-group">
+            <label for="zipcode">Zipcode</label>
+
+            <!-- On auto-complete les champs -->
+            <input name="zipcode" type="zipcode" class="form-control" id="zipcode" value="">
             <!-- End -->
             
         </div>
         <div class="form-group">
-            <label for="file">Image</label>
+            <label for="file">Avatar</label>
 
             <!-- On auto-complete les champs -->
-            <input name="image" type="text" class="form-control" id="file" value="">
+            <input name="avatar" type="url" class="form-control" id="avatar" value="">
             <!-- End -->
             
         </div>
