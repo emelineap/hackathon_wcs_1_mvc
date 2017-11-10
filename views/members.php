@@ -53,8 +53,7 @@
                             </blockquote>
                             <p align="center" class="source">
                             
-                <?php include '../model/stalkmeModel.php'; ?>
-               
+        
                 <p><?php echo $user[0]['id']; ?></p> 
                 <p><?php echo $user['username'];?></p> 
                 <p><?php echo $user['birthday']; ?></p> 

@@ -16,6 +16,7 @@
                         echo($user_birthday['username']);
                     }
                 } ?>'s birthday today! <img src="views/assets/img/party_hat_emoji.png" alt="party hat"></h3>
+            <p class="birthday_email">Send your friend <a href="#">an email</a>!</p>
         </div>
 
         <h2>Who lives around me?</h2>
@@ -72,7 +73,7 @@
             </script>
             <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
             </script>
-            <script async defer
+            <script class="map" async defer
                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8GshAEmnL9ipPy1H68otXEHjyGpb1uBI&callback=initMap">
             </script>
 
