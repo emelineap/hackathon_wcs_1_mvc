@@ -38,75 +38,92 @@
 
 <div class="container-fluid">
 <div class="row">
-                <div class="col-sm-6 col-md-4">
+                       <div class="col-lg-12">
 
-                    <div class="members">
+                        <div class="members">
 
-                        <div class="img-box">
-                            <img class="stalkme-underline" src="https://media.giphy.com/media/3otPoRfzAcyjehLFnO/giphy.gif" alt="girlfail">
-                        </div>
-
-                        <div align="center" class="infos">
-                            <blockquote>
-                                <p>Lindsay Lohan</p>
-                                <p>Birthday: 12/12/1988</p>
-                            </blockquote>
-                            <p align="center" class="source">
-                            
-        
-                <p><?php echo $user[0]['id']; ?></p> 
-                <p><?php echo $user['username'];?></p> 
-                <p><?php echo $user['birthday']; ?></p> 
-                <p><?php echo $user['email']; ?></p> 
-                <p><?php echo $user['telephone']; ?></p>
-                <p><?php echo $user['avatar']; ?></p>
-            
-                            </p>
-                            <span class="hider"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-
-                    <div class="members">
-
-                        <div class="img-box">
-                            <img class="stalkme-underline" src="https://media.giphy.com/media/3otPoRfzAcyjehLFnO/giphy.gif" alt="girlfail">
+                        <div align="center" class="img-box">
+                            <img class="stalkme-underline" src="https://ljdchost.com/2aJ7L2L.gif" alt="girlfail">
                         </div>
 
                        <div align="center" class="infos">
                             <blockquote>
-                                <p>Lindsay Lohan</p>
+                                <p>Helene</p>
                                 <p>Birthday: 12/12/1988</p>
                             </blockquote>
                             <p align="center" class="source">
                                 06 56 56 56 56 <br>
                                 75020 <br>
-                                allo@gmail.com
+                                quandjenpeuxplusduhackathon@gmail.com
                             </p>
                             <span class="hider"></span>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-md-4">
+                <div class="col-lg-12">
 
                     <div class="members">
 
-                        <div class="img-box">
-                            <img class="stalkme-underline" src="https://media.giphy.com/media/3otPoRfzAcyjehLFnO/giphy.gif" alt="girlfail">
+                        <div align="center" class="img-box">
+                            <img class="stalkme-underline" src="http://tclhost.com/k18TD9r.gif" alt="girlfail">
                         </div>
 
-                        <div align="center" class="infos">
+                       <div align="center" class="infos">
                             <blockquote>
-                                <p>Lindsay Lohan</p>
+                                <p>Jenny</p>
                                 <p>Birthday: 12/12/1988</p>
                             </blockquote>
                             <p align="center" class="source">
                                 06 56 56 56 56 <br>
                                 75020 <br>
-                                allo@gmail.com
+                                quandtucomprendsplustoncode@gmail.com
+                            </p>
+                            <span class="hider"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+
+                        <div class="members">
+
+                        <div align="center" class="img-box">
+                            <img class="stalkme-underline" src="https://media.giphy.com/media/RddAJiGxTPQFa/giphy.gif" alt="girlfail">
+                        </div>
+
+                        <div align="center" class="infos">
+                            <blockquote>
+                                <p>Emeline</p>
+                                <p>Birthday: 12/12/1988</p>
+                            </blockquote>
+                            <p align="center" class="source">
+                                06 56 56 56 56 <br>
+                                75020 <br>
+                                quandjecomprendplusquijesuis@gmail.com
+                            </p>
+                            <span class="hider"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-12">
+
+                        <div class="members">
+
+                        <div align="center" class="img-box">
+                            <img class="stalkme-underline" src="https://media.giphy.com/media/jUwpNzg9IcyrK/giphy.gif" alt="girlfail">
+                        </div>
+
+                        <div align="center" class="infos">
+                            <blockquote>
+                                <p>Amandine</p>
+                                <p>Birthday: 12/12/1988</p>
+                            </blockquote>
+                            <p align="center" class="source">
+                                06 56 56 56 56 <br>
+                                75020 <br>
+                                surtoutjenesuispasla@gmail.com
                             </p>
                             <span class="hider"></span>
                         </div>
