@@ -15,7 +15,7 @@
     <nav class="navbar navbar-inverse stalkme-underline">
 
         <div class="navbar-header">
-            <a class="navbar-brand stalkme-font" href="index.php">Stalk Me</a>
+            <a class="navbar-brand stalkme-font" href="index.php"><img src="views/assets/img/stalk_me_logo_resize.png" alt="Stalk me!"></a>
             <!-- Brand and toggle get grouped for better mobile display -->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -28,7 +28,7 @@
             <form class="navbar-form navbar-right">
 
                 <!-- Lien vers la page d'ajout de formulaire, ce dernier doit avoir une indication dans l'url permettant d'identifier la demande de l'utilisateur -->
-                <a href="index.php?section=add" class="btn btn-stalkme" role="button">Login</a>
+                <a href="index.php?section=add" class="btn btn-stalkme" role="button">Stalk me please!</a>
                 <!-- End -->
                 
             </form>

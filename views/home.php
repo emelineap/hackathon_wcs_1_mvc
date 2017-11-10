@@ -4,7 +4,7 @@
 
         <div align="center" class="row">
             <div class="birth">
-                <h3> It's 
+                <h3 class="birthday_title"> It's
                     <?php 
                     // var_dump($users_birthday);
 
@@ -14,10 +14,11 @@
                     else { 
                         foreach ($users_birthday as $user_birthday){
                             // var_dump($users_birthday);
-                        echo ($user_birthday['username']);}} ?>'s birthday </h3> 
+                        echo ($user_birthday['username']);}} ?>'s birthday today! <img src="views/assets/img/party_hat_emoji.png" alt="party hat"></h3>
             </div>
             
             <div class="map">
+                <h4>Who lives around me?</h4>
                 <iframe
                     width="600"
                     height="450"
