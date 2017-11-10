@@ -12,6 +12,7 @@ function getAllUser(){
     // Traitement du resultat retourné par la requete
     $user = mysqli_fetch_all($req, MYSQLI_ASSOC);
     // Renvoie du tableau contenant toutes les citations
+    var_dump($user); die ();
     return $user;
 }
 /**
