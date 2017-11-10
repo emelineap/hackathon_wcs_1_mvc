@@ -11,7 +11,10 @@ function getAllUser(){
     $req = mysqli_query($bdd, 'SELECT * FROM user');
     // Traitement du résultat retourné par la requête
     $user = mysqli_fetch_all($req, MYSQLI_ASSOC);
+
+
     // Renvoie un tableau contenant tous les users
+
     return $user;
 }
 /**
