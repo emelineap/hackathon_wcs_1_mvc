@@ -2,8 +2,10 @@
 ==================================================
 1. Font
 2. Navbar
-3. Citation
+3. Body
 4. Footer
+5. Form
+6. Map
 ==================================================
 \************************************************/
 
@@ -27,96 +29,37 @@
 ==================================================
 \************************************************/
 
-.navbar, .container .jumbotron {
-    border-radius: 0px;
+.navbar-header {
+    height: 100px !important;
 }
 
-.navbar-brand.kaamelott-font {
-    line-height: 30px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: #fff;
+nav img {
+    position: absolute;
+    margin-top: 5px;
 }
 
-.navbar-brand.kaamelott-font:hover {
-    color: #ddd;
+.btn-stalkme {
+    background-color: #ffcc33;
+    color: white;
+    margin-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /************************************************\
 ==================================================
-3. Citation
+3. Body
 ==================================================
 \************************************************/
 
-.kaamelott-underline {
-    border-bottom: solid 5px #a57824;
+
+.birthday_title {
+    font-size: 50px;
 }
 
-.kaamelott-banner.jumbotron {
-    background-image: url('../img/kaamelott-banner.jpg');
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
-
-p.source {
-    text-align: right;
-}
-
-.quote {
-    height: 150px;
-    overflow: hidden;
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.quote .hider {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-    background: linear-gradient(0deg, #fff, transparent);
-}
-
-.thumbnail .img-box {
-    max-height: 200px;
-    overflow: hidden;
-}
-
-.thumbnail .img-box img {
-    width: 100%;
-}
-
-.thumbnail {
-    height: 420px;
-    max-width: 500px;
-    margin: auto;
-    margin-bottom: 15px;
-}
-
-.thumbnail blockquote {
-    padding: 10px;
-    border-left: none;
-}
-
-blockquote {
-    border-left: 5px solid #a57824;
-}
-
-.item-actions {
-    text-align: right;
-    padding: 0 5px;
-}
-
-.btn.btn-kaamelott {
-    background-color: #a57824;
-    color: white;
-}
-
-.btn.btn-kaamelott:hover {
-    background-color: #996f21;
+.birthday_email {
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 /************************************************\
@@ -125,16 +68,32 @@ blockquote {
 ==================================================
 \************************************************/
 
-footer{
-    margin-bottom: 10px;
-}
-footer ul {
-    padding: 0px;
-    margin: 0px;
+footer p{
     text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-footer ul li {
-    display: inline-block;
-    padding: 0 10px;
+/************************************************\
+==================================================
+5. Form
+==================================================
+\************************************************/
+
+.button1 {
+    background-color: #ffcc33;
+    color: white;
+}
+
+/************************************************\
+==================================================
+6. Map
+==================================================
+\************************************************/
+
+
+#map {
+    height: 75vh;
+    border: solid, 5px, #ffcc33;
 }
