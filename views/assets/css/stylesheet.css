@@ -5,6 +5,7 @@
 3. Body
 4. Footer
 5. Form
+6. Map
 ==================================================
 \************************************************/
 
@@ -78,6 +79,7 @@ footer p{
     background-color: #ffcc33;
     color: white;
 }
+
 /************************************************\
 ==================================================
 6. Map
@@ -86,6 +88,6 @@ footer p{
 
 
 #map {
-        height: 75vh;
-      }
-      /* Optional: Makes the sample page fill the window. */
+    height: 75vh;
+    border: solid, 5px, #ffcc33;
+}
