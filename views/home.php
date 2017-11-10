@@ -16,9 +16,7 @@
                         echo($user_birthday['username']);
                     }
                 } ?>'s birthday today! <img src="views/assets/img/party_hat_emoji.png" alt="party hat"></h3>
-        </div>
-        <div>
-            <p>Send her or him <a href="#">an email</a>!</p>
+            <p class="birthday_email">Send your friend <a href="#">an email</a>!</p>
         </div>
 
         <h2>Who lives around me?</h2>
