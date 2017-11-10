@@ -1,0 +1,12 @@
+{
+    "name": "jennyviannay/hackathon_wcs_1_mvc",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "JennyViannay",
+            "email": "jenny.vinnay75@gmail.com"
+        }
+    ]
+}

@@ -55,25 +55,4 @@ function addUserAction(){
 }
 
 
-// function birthday (){
-//     $now = new DateTime;
-
-//         if ($now->format('m-d') == ($current_birthday->format('m-d'))) {
-//             return '$username';
-//         }
-//         else {
-//             echo "nobody";
-//         }
-// }
-// function current_birthday (){
-//     $now = new DateTime();
-
-//     if ($now ==  $user_birthday) {
-//         return '$username';
-
-//         }else {
-//             echo "nobody";
-//         }
-// }
-
 

@@ -29,6 +29,7 @@
 
                 <!-- Lien vers la page d'ajout de formulaire, ce dernier doit avoir une indication dans l'url permettant d'identifier la demande de l'utilisateur -->
                 <a href="index.php?section=add" class="btn btn-stalkme" role="button">Stalk me please!</a>
+                <a href="views/members.php" class="btn btn-stalkme" role="button">Stalk your friends!</a>
                 <!-- End -->
                 
             </form>

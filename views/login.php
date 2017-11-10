@@ -48,7 +48,7 @@
 							</div>
 								
 								<div class="col-md-12">
-									<p class="blue"><span>* This informations are required.</span></p>
+									<p class="blue"><span>* These informations are required.</span></p>
 								</div>
 
 								<div class="col-md-12">
