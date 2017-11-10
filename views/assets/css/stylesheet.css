@@ -2,8 +2,9 @@
 ==================================================
 1. Font
 2. Navbar
-3. Header
+3. Body
 4. Footer
+5. Form
 ==================================================
 \************************************************/
 
@@ -12,9 +13,13 @@
 1. Font
 ==================================================
 \************************************************/
+@font-face {
+    font-family: 'Folkard';
+    src: url('../fonts/folkard_.ttf');
+}
 
-body {
-    font-family: "Helvetica Neue", "sans-serif";
+.kaamelott-font {
+    font-family: 'Folkard';
 }
 
 /************************************************\
@@ -23,51 +28,31 @@ body {
 ==================================================
 \************************************************/
 
-nav ul {
-    list-style-type: none;
+.navbar-header {
+    height: 100px !important;
 }
 
-li {
-    text-align: center;
+nav img {
+    position: absolute;
+    margin-top: 5px;
 }
 
-nav {
-    line-height: 1em;
-}
-
-ul {
-    list-style-type: none;
-    font-size: 20px;
-    padding: 0;
-    line-height: 1em;
-}
-
-li {
-    text-align: center;
-}
-
-li a {
-    color: black;
+.btn-stalkme {
+    background-color: #ffcc33;
+    color: white;
+    margin-top: 24px;
 }
 
 /************************************************\
 ==================================================
-3. Header
+3. Body
 ==================================================
 \************************************************/
 
-header img {
-    width: 100%;
-    height: 300px;
-    padding: 0;
-}
 
-.logo {
-    width: 300px;
-    height: 220px;
-    position: absolute;
-    bottom: 320px;
-    margin-left: 50px;
+.birthday_title {
+    font-size: 50px;
+    margin-bottom: 100px;
 }
 
 /************************************************\
@@ -76,6 +61,20 @@ header img {
 ==================================================
 \************************************************/
 
-footer {
+footer p{
     text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/************************************************\
+==================================================
+5. Form
+==================================================
+\************************************************/
+
+.button1 {
+    background-color: #ffcc33;
+    color: white;
 }

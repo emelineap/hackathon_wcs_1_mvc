@@ -1,7 +1,7 @@
 <?php
 
 // Création d'une connection à la base de base de donnée
-$bdd = mysqli_connect(HOST, USERNAME, MDP, DB);
+$bdd = mysqli_connect(SERVER, USER, PASS, DB);
 
 // Vérification que la connection à fonctionner
 if ($bdd == false){

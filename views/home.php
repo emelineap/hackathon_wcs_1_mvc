@@ -1,60 +1,33 @@
-<?php include 'views/includes/header.php'; ?>
+<?php require 'includes/header.php'; ?>
 
     <div class="container">
 
-        <div class="stalkme-banner jumbotron stalkme-underline">
-            <h1></h1>
-            <p></p>
-        </div>
+        <div align="center" class="row">
+            <div class="birth">
+                <h3 class="birthday_title"> It's
+                    <?php 
+                    // var_dump($users_birthday);
 
-        <div class="row">
-
-            <!-- Le bloc ci dessous permet d'afficher les card avec chaque citation, ce dernier devra se répéter pour toutes les citations -->
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <div class="img-box">
-
-                            <!-- Ici devra s'afficher l'image -->
-                            <img class="stalkme-underline" src="" alt="">
-                            <!-- End -->
-
-                        </div>
-                        <div class="birthday">
-                            <blockquote>
-
-                                <!-- Ici devra s'afficher le contenu de la citation -->
-
-                                <!-- End -->
-
-                            </blockquote>
-                            <p class="source">
-
-                                <!-- Ici devra s'afficher l'auteur de la citation -->
-
-                                <!-- End -->
-
-                                <!-- Ici devra s'afficher le chapitre de la citation -->
-
-                                <!-- End -->
-
-                            </p>
-                            <span class="hider"></span>
-                        </div>
-                        <p class="item-actions">
-
-                            <!-- Lien vers la page d'édition, ce dernier doit avoir une indication dans l'url permettant d'identifier quelle citation éditer -->
-                            <a href="#" class="btn btn-primary" role="button">Editer</a>
-
-                            <!-- Lien vers la page de suppression, ce dernier doit avoir une indication dans l'url permettant d'identifier quelle citation supprimer -->
-                            <a href="#" class="btn btn-danger" role="button">Supprimer</a>
-
-                        </p>
-                    </div>
-                </div>
-            <!-- End block card citation -->
-
+                    if (empty ($users_birthday)){ 
+                        echo "nobody";
+                    } 
+                    else { 
+                        foreach ($users_birthday as $user_birthday){
+                            // var_dump($users_birthday);
+                        echo ($user_birthday['username']);}} ?>'s birthday today! <img src="views/assets/img/party_hat_emoji.png" alt="party hat"></h3>
+            </div>
             
+            <div class="map">
+                <h4>Who lives around me?</h4>
+                <iframe
+                    width="600"
+                    height="450"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAlrC8OLY_RryeezvX5Lb0CVdg9woQZ-tM
+                    &q=Wild+Code+School,Paris" allowfullscreen>
+                </iframe>
+            </div>
         </div>
     </div>
 
-<?php include 'views/includes/footer.php'; ?>
+<?php require 'includes/footer.php'; ?>

@@ -5,6 +5,5 @@ define("USER", "root");
 define("PASS", "root");
 define("DB", "stalkme");
 
-?>
 
 

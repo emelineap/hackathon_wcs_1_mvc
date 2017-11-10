@@ -1,15 +1,5 @@
 <footer>
-    <ul>
-        <li>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-        </li>
-        <li>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-        </li>
-        <li>
-            <i class="fa fa-github" aria-hidden="true"></i>
-        </li>
-    </ul>
+    <p class="footer">Made with &#x2764; by Jenny & Emeline for the <a href="http://www.wildcodeschool.fr">Wild Code School</a>, 2017.</p>
 </footer>
 
     <script
