@@ -45,3 +45,10 @@ function getUser($id){
     // La fonction renvoie le résultat
     return $user;
 }
+
+function birthday_today() {
+    global $bdd;
+    $req_birthday = mysqli_query($bdd, "SELECT * FROM user WHERE MONTH(birthday) = MONTH(NOW()) AND DAY(birthday) = DAY(NOW())");
+    $user_birthday = mysqli_fetch_all($req_birthday, MYSQLI_ASSOC);
+    return $user_birthday;
+}

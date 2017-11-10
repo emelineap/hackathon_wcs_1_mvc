@@ -1,10 +1,9 @@
 <?php
 
-define("SERVER", "localhost:8889");
+define("SERVER", "localhost");
 define("USER", "root");
 define("PASS", "root");
 define("DB", "stalkme");
 
-?>
 
 

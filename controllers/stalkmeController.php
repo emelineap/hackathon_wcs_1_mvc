@@ -6,6 +6,7 @@ function loginAction(){
     // Déclarer une variable $user qui permttra de stocker toutes les citations
     // On récupèrera les citation grâce à la fonction getAllCitations() présente dans le model
     $user = getAllUser();
+    $users_birthday = birthday_today();
     // Inclusion de la page d'accueil (home.php)
     include('views/home.php');
 }
@@ -48,7 +49,31 @@ function addUserAction(){
             // Appel du modele ==> execution de la requete d'enregistrement en base de donné (addCitation())
             addUser($username, $email, $phone, $birthday, $zipcode, $avatar);
             // Redirection vers le controllers frontal index.php
-            include ('views/home.php');
+            header ('Location: index.php');
         }
     }
 }
+
+
+// function birthday (){
+//     $now = new DateTime;
+
+//         if ($now->format('m-d') == ($current_birthday->format('m-d'))) {
+//             return '$username';
+//         }
+//         else {
+//             echo "nobody";
+//         }
+// }
+// function current_birthday (){
+//     $now = new DateTime();
+
+//     if ($now ==  $user_birthday) {
+//         return '$username';
+
+//         }else {
+//             echo "nobody";
+//         }
+// }
+
+

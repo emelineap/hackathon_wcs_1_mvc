@@ -1,15 +1,32 @@
-<?php include 'views/includes/header.php'; ?>
+<?php require 'includes/header.php'; ?>
 
     <div class="container">
 
-        <div class="stalkme-banner jumbotron stalkme-underline">
-            <h1></h1>
-            <p></p>
-        </div>
+        <div align="center" class="row">
+            <div class="birth">
+                <h3> It's 
+                    <?php 
+                    // var_dump($users_birthday);
 
-        <div class="row">
+                    if (empty ($users_birthday)){ 
+                        echo "nobody";
+                    } 
+                    else { 
+                        foreach ($users_birthday as $user_birthday){
+                            // var_dump($users_birthday);
+                        echo ($user_birthday['username']);}} ?>'s birthday </h3> 
+            </div>
             
+            <div class="map">
+                <iframe
+                    width="600"
+                    height="450"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAlrC8OLY_RryeezvX5Lb0CVdg9woQZ-tM
+                    &q=Wild+Code+School,Paris" allowfullscreen>
+                </iframe>
+            </div>
         </div>
     </div>
 
-<?php include 'views/includes/footer.php'; ?>
+<?php require 'includes/footer.php'; ?>

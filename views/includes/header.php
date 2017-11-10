@@ -28,7 +28,7 @@
             <form class="navbar-form navbar-right">
 
                 <!-- Lien vers la page d'ajout de formulaire, ce dernier doit avoir une indication dans l'url permettant d'identifier la demande de l'utilisateur -->
-                <a href="views/login.php" class="btn btn-stalkme" role="button">Login</a>
+                <a href="index.php?section=add" class="btn btn-stalkme" role="button">Login</a>
                 <!-- End -->
                 
             </form>
